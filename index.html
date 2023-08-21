@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exabyting</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+    <script src="js/fbRevenueGraph.js"></script>
+    <script src="js/firstTable.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li class="dropdown">
+            <a href="#">Products<span class="dropdown-indicator"></span></a>
+            <div class="dropdown-content">
+              <a href="#">Porduct 1</a>
+              <a href="#">Porduct 2</a>
+              <a href="#">Porduct 3</a>
+            </div>
+          </li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button>Get Started</button>
+        <button>Login</button>
+      </div>
+    </header>
+    <main>
+      <section class="home-banner">
+        <div class="banner-details">
+          <div class="banner-text">
+            <h1>
+              Lore ipsum. <br />
+              Dolor sit.
+            </h1>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatu. Sed ut perspiciatis unde
+              omnis iste natus error.
+            </p>
+          </div>
+          <div class="banner-buttons">
+            <button class="btn-one">Viverra orci sagittis</button>
+            <button>Get a demo</button>
+          </div>
+        </div>
+
+        <div class="banner-thumb">
+          <img src="images/bannerThumb.png" alt="bannerThumb" />
+        </div>
+      </section>
+      <section>
+        <div>
+          <table class="first-data-table">
+            <caption>
+              Data Table
+            </caption>
+            <thead>
+              <tr>
+                <th>Source</th>
+                <th>Ad</th>
+                <th>Cost</th>
+                <th>Sales</th>
+                <th>First time customers</th>
+                <th>Revenue</th>
+                <th>ROAS</th>
+                <th>CAC</th>
+                <th>F.T.ROAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Youtube</td>
+                <td>Video</td>
+                <td>$2567.00</td>
+                <td>120</td>
+                <td>90</td>
+                <td>$10,800.00</td>
+                <td>4.21</td>
+                <td>$28.52</td>
+                <td>3.16</td>
+              </tr>
+              <tr>
+                <td>Adwords</td>
+                <td>Search</td>
+                <td>$1233.00</td>
+                <td>198</td>
+                <td>71</td>
+                <td>$10,800.00</td>
+                <td>4.77</td>
+                <td>$28.52</td>
+                <td>3.43</td>
+              </tr>
+              <tr>
+                <td>Adwords</td>
+                <td>Search</td>
+                <td>$1233.00</td>
+                <td>198</td>
+                <td>71</td>
+                <td>$10,800.00</td>
+                <td>4.71</td>
+                <td>$28.52</td>
+                <td>3.99</td>
+              </tr>
+              <tr>
+                <td>Adwords</td>
+                <td>Search</td>
+                <td>$1233.00</td>
+                <td>198</td>
+                <td>71</td>
+                <td>$10,800.00</td>
+                <td>2.15</td>
+                <td>$28.52</td>
+                <td>1.65</td>
+              </tr>
+              <tr>
+                <td>Adwords</td>
+                <td>Search</td>
+                <td>$1233.00</td>
+                <td>198</td>
+                <td>71</td>
+                <td>$10,800.00</td>
+                <td>7.41</td>
+                <td>$28.52</td>
+                <td>4.68</td>
+              </tr>
+              <tr>
+                <td>Adwords</td>
+                <td>Search</td>
+                <td>$1233.00</td>
+                <td>198</td>
+                <td>71</td>
+                <td>$10,800.00</td>
+                <td>2.28</td>
+                <td>$28.52</td>
+                <td>2.10</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="revenue-section">
+        <div class="section-with-title">
+          <div class="title-container">
+            <h2 class="section-title">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+            </h2>
+            <p class="section-subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore
+            </p>
+          </div>
+        </div>
+        <div class="chart-container">
+          <div id="chartContainer"></div>
+        </div>
+        <div class="canvas-text">Revenue from Facebook Ads</div>
+        <div class="chart-cal1">
+          <h4>
+            $3.455 <br />
+            <small>Tracked by Logoipsum Data</small>
+          </h4>
+        </div>
+        <div class="chart-cal2">
+          <h4>
+            $3.455 <br />
+            <small>Tracked by Logoipsum Data</small>
+          </h4>
+        </div>
+      </section>
+      <section class="data-table">
+        <div class="table1">
+          <table class="special-table1">
+            <caption>
+              Facebook data
+            </caption>
+            <thead>
+              <tr>
+                <th>Ad Name</th>
+                <th>Orders</th>
+                <th>ROAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>All_25+_Static_split_screen</td>
+                <td>12</td>
+                <td>3.2</td>
+              </tr>
+              <tr>
+                <td>M_25+_Static_split_screen_2</td>
+                <td>2</td>
+                <td>1.5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="table2">
+          <table class="special-table2">
+            <caption>
+              Logoipsum data
+            </caption>
+            <thead>
+              <tr>
+                <th>Ad Name</th>
+                <th>Orders</th>
+                <th>ROAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>All_25+_Static_split_screen</td>
+                <td>12</td>
+                <td>3.2</td>
+              </tr>
+              <tr>
+                <td>M_25+_Static_split_screen_2</td>
+                <td>2</td>
+                <td>1.5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <section class="date-week-table">
+        <div class="table1">
+          <table class="last-special-table">
+            <caption>
+              Facebook data
+            </caption>
+            <thead>
+              <tr>
+                <th>Ad Name</th>
+                <th>Orders</th>
+                <th>ROAS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>All_25+_Static_split_screen</td>
+                <td>12</td>
+                <td>3.2</td>
+              </tr>
+              <tr>
+                <td>M_25+_Static_split_screen_2</td>
+                <td>2</td>
+                <td>1.5</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
