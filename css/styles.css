@@ -118,6 +118,15 @@ button:hover {
   gap: 20px;
   padding-left: 40px;
 }
+.social-media {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 60px 40px 60px 40px;
+}
+.half {
+  width: 50%;
+}
 .banner-details {
   padding: 0 16px;
   display: flex;
@@ -194,7 +203,7 @@ button:hover {
   width: 100%;
   position: relative;
 }
-.canvas-text {
+/* .canvas-text {
   position: absolute;
   top: 200%;
   left: 15%;
@@ -212,7 +221,7 @@ button:hover {
   top: 233%;
   right: 5%;
   color: #ffc907;
-}
+} */
 .data-table {
   margin: 0 60px;
   display: flex;
@@ -310,27 +319,94 @@ table.first-data-table {
 }
 
 /*  */
-.parent {
+
+.social-icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icon-number {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: 2px 60px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -9px -9px 16px 0px #eeeeee99;
+  box-shadow: 10px 10px 17px 0px #c1d0c342;
+  border-radius: 20px;
+  border: 2px;
+}
+.social-icon-number img {
+  padding: 10px;
+  /* width: 70%; */
+}
+
+.social-icon-number:nth-child(odd) {
+  transform: translateX(-50%);
+}
+
+.social-icon-number:nth-child(even) {
+  transform: translateX(-40%);
+}
+.banner-text h2 {
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 65px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bold-text {
+  font-weight: 900px;
+}
+.social-container-2 {
+  display: flex;
+  align-items: center;
+}
+.drive-shopify-icon {
+  display: flex;
+  flex-direction: column;
+}
+.card-section {
   display: flex;
   justify-content: space-between;
+  padding: 40px;
 }
 
-.column {
-  flex: 1;
-  text-align: center;
+.card {
+  margin: 0 10px;
+  background-color: #f4f4f4;
+  border-radius: 20px;
+  padding: 20px;
+  width: 30%;
+  box-shadow: -9px -9px 16px 0px #ffffff99;
+  box-shadow: 12px 12px 20px 0px #a4c6a380;
 }
 
-.column img {
-  margin: 10px;
-  max-width: 100%;
-  height: auto;
+.card-icon img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
-.column:nth-child(1) div:nth-child(odd) img,
-.column:nth-child(3) div:nth-child(odd) img {
-  border: 2px solid #f2f2f2;
+.card-content {
+  margin-top: 10px;
 }
 
-.column:nth-child(2) div:nth-child(even) img {
-  border: 2px solid #f2f2f2;
+.card-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-description {
+  font-size: 1em;
+  margin: 5px 0;
 }
