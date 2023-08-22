@@ -231,13 +231,13 @@ table {
 
 .special-table1 th,
 .special-table2 th,
-.last-special-table th {
+.last-data-table th {
   padding: 10px;
   text-align: center;
 }
 .special-table1 td,
 .special-table2 td,
-.last-special-table td,
+.last-data-table td,
 .first-data-table td {
   padding: 10px;
   text-align: center;
@@ -251,7 +251,7 @@ table {
   padding: 10px;
 }
 
-.last-special-table th {
+.last-data-table th {
   background-color: #bbe5c9;
 }
 
@@ -260,7 +260,7 @@ table {
 .first-data-table tr td {
   background-color: #b4ecd2;
 }
-.last-special-table tr td {
+.last-data-table tr td {
   background-color: #e3e3e3;
 }
 table.special-table1 tr:last-child td:last-child {
@@ -294,6 +294,17 @@ table.first-data-table {
 .first-data-table td.mid-value {
   background-color: #93d1b5;
 }
-.first-data-table td.high-value {
+.first-data-table td.high-value,
+.last-data-table td.highest-value {
   background-color: #64b992;
+}
+.last-data-table td.lowest-value {
+  background-color: #e3e3e3;
+}
+
+.last-data-table td.second-highest-value {
+  background-color: #93d1b5;
+}
+.last-data-table td.mid-range-value {
+  background-color: #b4ecd2;
 }
